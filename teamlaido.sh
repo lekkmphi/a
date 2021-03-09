@@ -63,8 +63,8 @@ upload_proxy() {
 }
 gen_data() {
     seq $FIRST_PORT $LAST_PORT | while read port; do
-        #echo "Teamlaido$(random)/Teamlaido$(random)/$IP4/$port/$(gen64 $IP6)"
-	echo "usr$(random)-Teamlaido/pass$(random)-Teamlaido/$IP4/$port/$(gen64 $IP6)"
+        #echo "Kingofvia.com$(random)/Kingofvia.com$(random)/$IP4/$port/$(gen64 $IP6)"
+	echo "usr$(random)-Teamalaido/pass$(random)-Teamalaido/$IP4/$port/$(gen64 $IP6)"
     done
 }
 
